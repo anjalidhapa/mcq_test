@@ -24,12 +24,7 @@ app.get("/", (req, res) => {
 
 // middleware
 // app.use(cors());
-app.use(
-  cors({
-    origin: "https://mcq-test-psi.vercel.app/",
-    credentials: true,
-  }),
-);
+app.use(cors());
 app.use(express.json());
 
 // routes
