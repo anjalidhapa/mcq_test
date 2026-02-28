@@ -5,12 +5,15 @@ const Root = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-3xl font-bold text-center mb-4">
-          🎓 Student Examination Portal
+          Student Examination Portal
         </h1>
 
         <p className="text-gray-700 text-center mb-6">
           A MERN Stack based online examination system with timed MCQ tests,
           result evaluation, and admin management.
+        </p>
+        <p className="text-gray-700 text-center mb-6">
+          - Developed by Hadi
         </p>
 
         {/* Features */}
