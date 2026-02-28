@@ -16,6 +16,7 @@ import AdminLogin from "./admin/pages/AdminLogin.jsx";
 import AdminDashboard from "./admin/pages/AdminDashboard.jsx";
 import ManageQuestions from "./admin/pages/ManageQuestions.jsx";
 import ViewResults from "./admin/pages/ViewResults.jsx";
+import Root from "./pages/Root.jsx";
 
 // Protected Route to check if student is logged in
 const ProtectedRoute = ({ children }) => {
@@ -35,7 +36,7 @@ function App() {
       <div className="min-h-screen bg-gray-100">
         <Routes>
           {/* Student Routes */}
-          <Route path="/" element={<Navigate to="/login" />} />
+          <Route path="/" element={<Root />} />
           <Route path="/register" element={<StudentRegister />} />
           <Route path="/login" element={<StudentLogin />} />
           <Route
