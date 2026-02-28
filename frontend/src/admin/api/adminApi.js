@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api/admin", // adjust backend URL
+  baseURL: "https://mcq-test-b6ao.onrender.com/api/admin", // adjust backend URL
 });
 
 // Admin login
