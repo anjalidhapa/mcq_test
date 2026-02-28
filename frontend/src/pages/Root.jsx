@@ -54,6 +54,12 @@ const Root = () => {
           >
             Student Login
           </Link>
+          <Link
+            to="/register"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded text-center font-semibold"
+          >
+            Student Register
+          </Link>
 
           <Link
             to="/admin/login"
