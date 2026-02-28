@@ -18,7 +18,6 @@ const PORT = process.env.PORT || 5000;
 // seedQuestions();
 
 const app = express();
-
 app.get("/", (req, res) => {
   res.send("api working");
 });
